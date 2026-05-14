@@ -22,7 +22,7 @@ At the bottom of the handout, you will find some hints and tips for the various 
 
 For this task, you will need to fork this repo at: https://github.com/CSC207-2026S-UofT/Lab2-Branching-and-Merging.
 
-- [ ] Make a fork of this repo and clone a local copy (as you did in Lab 1).
+- [X] Make a fork of this repo and clone a local copy (as you did in Lab 1).
   - **Important**: make sure to **uncheck** the option to only fork the main branch, as the repo
   contains two branches you will use later in this lab.
 
@@ -31,12 +31,12 @@ For you to think: you actually have access to clone the original repo - so why w
 # TASK 1: Your first branch
 Fixing the bug is not the main focus of this task, if you are stuck, feel free to still push your code with the bug fix and check off the item, but we encourage you to try to fix the bug on your own first. The main focus of this task is to get you familiar with branching and merging.
 
-- [ ] Create and checkout a new branch called `task_1` using either IntelliJ or the Terminal:
+- [X] Create and checkout a new branch called `task_1` using either IntelliJ or the Terminal:
   - IntelliJ: `Git -> New branch...`
   - Terminal: `git checkout -b task_1`
   - After, you can check `git status` or the Log tab of the Git tool window in IntelliJ to see
   that you are now on the `task_1` branch.
-- [ ] Open the TODO tool window (`View -> Tool Windows -> TODO`) and click on the TASK 1 TODO listed.
+- [X] Open the TODO tool window (`View -> Tool Windows -> TODO`) and click on the TASK 1 TODO listed.
 - [ ] Complete the TASK 1 TODO and commit your changes to this file (checking off the
 completed items so far) and `Polymorphism.java` (remove the word TODO and your bug fix).
   - talk to those around you or your TA, then see the hints at the bottom of the readme if you get stuck.

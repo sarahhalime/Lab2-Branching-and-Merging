@@ -1,5 +1,5 @@
 public class Polymorphism {
-    // TODO TASK 1: Fix the bugs in this code to pass PolymorphismTest.java
+    // TASK 1: Fix the bugs in this code to pass PolymorphismTest.java
 
     /**
      * Returns the role.
@@ -7,8 +7,22 @@ public class Polymorphism {
      * @return the role of the person
      */
     public static String getStudentRole(Person p) {
-        // TODO: right now for student, it is not returning the role to be student.
-        return p.role;
+        return p.getRole();
+    }
+
+    /**
+     * Returns the student id if p is a Student.
+     * Otherwise returns "Not a student".
+     *
+     * @param p the person
+     * @return the student id or "Not a student"
+     */
+    public static String getStudentId(Person p) {
+        if (p instanceof Student) {
+            Student s = (Student) p;
+            return s.getStudentId();
+        }
+        return "Not a student";
     }
 }
 
@@ -23,6 +37,10 @@ class Person {
     public String getName() {
         return this.name;
     }
+
+    public String getRole() {
+        return this.role;
+    }
 }
 
 class Student extends Person {
@@ -32,5 +50,14 @@ class Student extends Person {
     public Student(String name, String studentId) {
         super(name);
         this.studentId = studentId;
+    }
+
+    @Override
+    public String getRole() {
+        return this.role;
+    }
+
+    public String getStudentId() {
+        return this.studentId;
     }
 }
