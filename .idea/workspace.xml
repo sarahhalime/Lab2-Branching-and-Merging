@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="434a349c-4163-4b1c-8180-6f1b6eb9a2f1" name="Changes" comment="" />
+    <list default="true" id="434a349c-4163-4b1c-8180-6f1b6eb9a2f1" name="Changes" comment="task 1 completed (readme &amp; polymorphism)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,21 +13,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "sarahhalime"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sarahhalime&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/sarahhalime/Lab2-Branching-and-Merging.git",
-    "accountId": "504d1c2f-66db-4cb0-9e1e-b2dee74f54eb"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sarahhalime/Lab2-Branching-and-Merging.git&quot;,
+    &quot;accountId&quot;: &quot;504d1c2f-66db-4cb0-9e1e-b2dee74f54eb&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3DjcvG4LoDM9tAY51JMGDyREDcZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,6 +45,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
@@ -84,10 +85,24 @@
       <option name="presentableId" value="Default" />
       <updated>1778799147734</updated>
       <workItem from="1778799148859" duration="2859000" />
+      <workItem from="1778802022869" duration="2383000" />
     </task>
+    <task id="LOCAL-00001" summary="task 1 completed (readme &amp; polymorphism)">
+      <option name="closed" value="true" />
+      <created>1778802079945</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1778802079945</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="task 1 completed (readme &amp; polymorphism)" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 1 completed (readme &amp; polymorphism)" />
   </component>
 </project>
